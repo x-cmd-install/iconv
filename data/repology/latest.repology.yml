@@ -1,0 +1,28 @@
+- repo: distri
+  srcname: iconv
+  binname: iconv
+  visiblename: iconv
+  version: "1.16"
+  origversion: 1.16-7
+  status: outdated
+- repo: freebsd
+  srcname: converters/iconv
+  binname: iconv
+  visiblename: converters/iconv
+  version: "2.0"
+  origversion: "2.0_7"
+  status: newest
+  summary: Charset conversion library and utilities
+  maintainers:
+    - bofh@freebsd.org
+  categories:
+    - converters
+- repo: scoop
+  subrepo: main
+  binname: iconv
+  visiblename: iconv
+  version: 1.14-3
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-3.0-or-later
